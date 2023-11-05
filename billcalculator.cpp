@@ -9,8 +9,8 @@ int main()
 	h=u*2;
 	i=u*10;
 	if(u>0 && u<100)
-	printf("%d",&h);
+	printf("%d",h);
 	else if(u>100)
-    printf("%d",&i);
+    printf("%d",i);
 	return 0;
 }
